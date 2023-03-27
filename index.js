@@ -5,11 +5,8 @@ let hr =0;
 function start(){
     if(isStop == true){
         isStop = false;
-      
+
         timer();
-        document.getElementById('btn1').disabled = true;  
-        document.getElementById('btn2').disabled = false;
-        document.getElementById('btn3').disabled = false;
 
     }
 }
