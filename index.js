@@ -7,6 +7,9 @@ function start(){
         isStop = false;
       
         timer();
+        document.getElementById('btn1').disabled = true;  
+        document.getElementById('btn2').disabled = false;
+        document.getElementById('btn3').disabled = false;
 
     }
 }
